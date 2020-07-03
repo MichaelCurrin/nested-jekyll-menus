@@ -17,7 +17,7 @@ layout: default
     {% for item in p %}
         {% if item.dir == page.dir %}
         <li>
-            <a href="{{ item.url }}">{{ item.title }} </a>
+            <a href="{{ item.url | relative_url }}">{{ item.title }}</a>
         </li>
         {% endif %}
     {% endfor %}
@@ -29,7 +29,7 @@ layout: default
     {% for item in p %}
         {% if item.dir contains page.dir and item.name == 'index.md' %}
         <li>
-            <a href="{{ item.url }}">{{ item.title }}</a>
+            <a href="{{ item.url | relative_url }}">{{ item.title }}</a>
         </li>
         {% endif %}
     {% endfor %}
