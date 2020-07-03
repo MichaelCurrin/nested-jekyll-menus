@@ -11,7 +11,7 @@
 <body>
     <p>{{ site.title | upcase }}</p>
 
-    <h1>{{ page.title }}</h1>
+    <h1><a href="{% link {{ page.path }} %}">{{ page.title }}</a></h1>
 
     {% include breadcrumbs.html %}
 
