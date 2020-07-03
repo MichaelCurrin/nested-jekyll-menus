@@ -19,6 +19,17 @@ While the Minima Jekyll theme handles pulling pages into a navbar automatically,
 Another approach would be to generate a menu as a config file. Or to generate a table of contents of the entire site - which can work in a nested navbar or a sidebar. But it can get overwhelming if there are many levels.
 
 
+## Remote setup
+
+Fork the repo to your repos.
+
+Go to Settings.
+
+Turn on Github Pages setting.
+
+Visit the given URL.
+
+
 ## Installation
 
 Install Ruby and Bundler.
