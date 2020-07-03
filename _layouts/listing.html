@@ -7,11 +7,9 @@ layout: default
 
 <h2>Menu</h2>
 
+{% assign p = site.pages | where_exp: "item", "item.path != page.path" %}
 
-{% assign p = site.pages
-    | where_exp: "item", "item.path != page.path"
-    | where_exp: "item", "item.path != 'index.md'"
-%}
+{% comment %} Show pages and directories at the current level only. {% endcomment %}
 
 <h3>Pages</h3>
 
@@ -19,7 +17,7 @@ layout: default
     {% for item in p %}
         {% if item.dir == page.dir %}
         <li>
-            <a href="{% link {{ item.path }} %}">{{ item.title }} </a>
+            <a href="{{ item.url }}">{{ item.title }} </a>
         </li>
         {% endif %}
     {% endfor %}
@@ -31,7 +29,7 @@ layout: default
     {% for item in p %}
         {% if item.dir contains page.dir and item.name == 'index.md' %}
         <li>
-            <a href="{% link {{ item.path }} %}">{{ item.title }}</a>
+            <a href="{{ item.url }}">{{ item.title }}</a>
         </li>
         {% endif %}
     {% endfor %}
