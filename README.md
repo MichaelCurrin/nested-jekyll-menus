@@ -19,6 +19,43 @@ While the Minima Jekyll theme handles pulling pages into a navbar automatically,
 Another approach would be to generate a menu as a config file. Or to generate a table of contents of the entire site - which can work in a nested navbar or a sidebar. But it can get overwhelming if there are many levels.
 
 
+## Installation
+
+Install Ruby and Bundler.
+
+Clone the project.
+
+Install dependencies - includes Jekyll 4.
+
+```sh
+$ make install
+```
+
+
+## Usage
+
+Run this command:
+
+```sh
+$ make serve
+```
+
+Open the browser at:
+
+- http://localhost:4000/nested-jekyll-menus/
+
+
+## Development
+
+Notes for editing or using this repo:
+
+If this set in the config, it breaks the `page.dir` check for structure:
+
+```yaml
+permalink: pretty
+```
+
+
 ## License
 
 Released under [MIT](/LICENSE).
