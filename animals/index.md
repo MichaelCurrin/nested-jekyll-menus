@@ -1,3 +1,3 @@
 ---
-title: Foo
+title: Animals
 ---

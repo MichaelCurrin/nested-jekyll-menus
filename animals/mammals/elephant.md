@@ -1,5 +1,5 @@
 ---
-title: Bar B
+title: Elephant
 ---
 
 Content goes here.

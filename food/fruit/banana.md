@@ -1,5 +1,5 @@
 ---
-title: Buzz B
+title: Banana
 ---
 
-Content goes here.
+High in potassium.

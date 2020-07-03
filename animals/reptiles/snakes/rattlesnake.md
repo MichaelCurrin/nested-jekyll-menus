@@ -1,5 +1,5 @@
 ---
-title: Foo B
+title: Rattlesnake
 ---
 
 Content goes here.

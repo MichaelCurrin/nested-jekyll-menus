@@ -2,4 +2,4 @@
 title: Fruit
 ---
 
-Content goes here
+Fruit can be high in sugar but a good replacement for chocolate and fizzy drinks

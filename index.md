@@ -4,5 +4,5 @@ layout: default
 ---
 
 {%- comment -%} TODO: Move to config for order (minima){% endcomment %}
-- [Foo]({% link foo/index.md %})
-- [Fizz]({% link fizz/index.md %})
+- [Food]({% link food/index.md %})
+- [Animals]({% link animals/index.md %})

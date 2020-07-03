@@ -1,5 +1,5 @@
 ---
-title: Bar A
+title: Camel
 ---
 
 Content goes here.

@@ -1,5 +1,5 @@
 ---
-title: Foo A
+title: Boomslang
 ---
 
 Content goes here.
