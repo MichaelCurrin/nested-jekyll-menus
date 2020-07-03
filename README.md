@@ -1,12 +1,25 @@
 # Nested Jekyll Menus
-> Demo of how to auto-generate Jekyll menus dynamically based on project structure
+> Demo of how to generate Jekyll menus dynamically based on project structure
+
+Create content pages using _any_ number of nested levels. Then use the logic in the project to create a menu for the current page which shows pages and directories which are immediate descendants.
+
+
+## How to use this project
+
+See the `list-` files in the [\_includes](/_includes/) directory - these are used in the [listing](/_layouts/listing.html) layout file.
+
+Use this project directly or copy the layout file to your own project.
+
+The only requirement for this pattern to build the directory structure is that there must be an `index.md` page at each level which has frontmatter that includes a page title.
+
+Instead of setting the `listing` layout for each index page, you can set it as a default layout for index pages. See the [config](_config.yml) file's `defaults` section.
 
 
 ## About
 
 This approach here makes it easy to add and rename pages in a site without having to update a config file, as the menu is generated _automatically_ based on your content. This is especially when there are nested levels and each level has a few files and folders.
 
-The approach show the looks for pages and sections (directories) at the current level and adds those to a menu. See [listing](/_layouts/listing.html) layout.
+The approach show the looks for pages and sections (directories) at the current level and adds those to a menu.
 
 Note that a limitation of the approach here is that the order is assumed to be alphabetical rather than manually ordered, but that okay.
 
@@ -20,8 +33,6 @@ Another approach would be to generate a menu as a config file. Or to generate a 
 
 
 ## Remote setup
-
-Note this site is intended to work with Jekyll 4 so that URLs work better. So this will **not** run on Github Pages as is. A Github Action can be used.
 
 <!-- TODO: Move to gist and replace here -->
 

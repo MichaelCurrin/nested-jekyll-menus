@@ -4,39 +4,12 @@ layout: default
 
 {{ content }}
 
-
 <h2>Menu</h2>
 
 <h3>Pages</h3>
 
-{% comment %}
-    Pages at the current level excluding the page itself.
-{% endcomment %}
-
-<ul>
-    {% for item in site.pages %}
-        {% if item.dir == page.dir and item.path != page.path %}
-        <li>
-            <a href="{{ item.url | relative_url }}">{{ item.title }}</a>
-        </li>
-        {% endif %}
-    {% endfor %}
-</ul>
+{% include list-pages.html %}
 
 <h3>Sections</h3>
 
-{% comment %}
-    After removing the common part of the item's path, use an item if goes exactly one level down.
-{% endcomment %}
-
-<ul>
-    {% for item in site.pages %}
-        {% assign item_crumbs = item.url | remove_first: page.dir | split: '/' %}
-
-        {% if item_crumbs.size == 1 and item.name == 'index.md' %}
-        <li>
-            <a href="{{ item.url | relative_url }}">{{ item.title }}</a>
-        </li>
-        {% endif %}
-    {% endfor %}
-</ul>
+{% include list-sections.html %}
