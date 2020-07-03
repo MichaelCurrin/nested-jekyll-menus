@@ -1,5 +1,5 @@
 ---
-title: Buzz
+title: Fruit
 ---
 
 Content goes here
