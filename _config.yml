@@ -1,0 +1,20 @@
+title: Nested Jekyll Menus
+description: Demo of how to auto-generate Jekyll menus dynamically based on project structure
+
+url: "https://michaelcurrin.github.io"
+baseurl: "/nested-jekyll-menus"
+
+exclude:
+  - LICENSE
+  - README.md
+  - Makefile
+
+defaults:
+  - scope:
+      path: "**/index.md"
+    values:
+      layout: "listing"
+  - scope:
+      path: ""
+    values:
+      layout: "default"
