@@ -21,6 +21,10 @@ Another approach would be to generate a menu as a config file. Or to generate a 
 
 ## Remote setup
 
+Note this site is intended to work with Jekyll 4 so that URLs work better. So this will **not** run on Github Pages as is. A Github Action can be used.
+
+<!-- TODO: Move to gist and replace here -->
+
 Fork the repo to your repos.
 
 Go to Settings.
