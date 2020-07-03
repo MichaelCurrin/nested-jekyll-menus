@@ -12,7 +12,7 @@ Use this project directly or copy the layout file to your own project.
 
 The only requirement for this pattern to build the directory structure is that there must be an `index.md` page at each level which has frontmatter that includes a page title.
 
-Instead of setting the `listing` layout for each index page, you can set it as a default layout for index pages. See the [config](_config.yml) file's `defaults` section.
+Instead of setting the `listing` layout for each index page, you can set it as a default layout for index pages. See the [config](/_config.yml) file's `defaults` section.
 
 
 ## About
@@ -23,7 +23,10 @@ The approach show the looks for pages and sections (directories) at the current 
 
 Note that a limitation of the approach here is that the order is assumed to be alphabetical rather than manually ordered, but that okay.
 
-It is recommended to add _breadcrumbs_ trail to your pages to help the user see where they are in the nested structure. This is not handled in this repo.
+It is recommended to add _breadcrumbs_ trail to your pages to help the user see where they are in the nested structure. See the [breadcrumbs.html](/_includes/breadcrumbs.html) includes file.
+
+This project used the [Unsplash API](https://github.com/MichaelCurrin/learn-to-code/blob/master/en/topics/web_dev/HTML/stock_images.md) to search for and embed images, to make this project more fun.
+
 
 ## Other approaches
 
