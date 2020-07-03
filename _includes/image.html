@@ -1,0 +1,10 @@
+<div>
+    {% if page.name == 'index.md' %}
+        {% assign keyword = page.dir | split: '/' | last %}
+    {% else %}
+        {% assign keyword = page.name | remove: '.md' %}
+    {% endif %}
+
+    <img src="https://source.unsplash.com/200x200/?{{ keyword }}"
+            height="200px" />
+</div>
