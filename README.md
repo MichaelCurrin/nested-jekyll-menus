@@ -197,3 +197,9 @@ To setup and run this project locally or on Github Pages, see the [docs](/docs/#
 Released under [MIT](/LICENSE).
 
 Please back to this repo if you use a portion of it. Also include a copy of the original license.
+
+Stock images provided from the [unsplash.com](https://unsplash.com/) Source API.
+
+Breadcrumbs file is based on:
+
+- https://jekyllcodex.org/without-plugin/breadcrumbs/
