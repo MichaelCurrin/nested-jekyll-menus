@@ -4,7 +4,7 @@
 [![GitHub tag](https://img.shields.io/github/tag/MichaelCurrin/nested-jekyll-menus)](https://github.com/MichaelCurrin/nested-jekyll-menus/tags/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue)](#license)
 
-[![View site GH Pages](https://img.shields.io/badge/View_site-GH_Pages-green?style=for-the-badge)](https://MichaelCurrin.github.io/nested-jekyll-menus/)
+[![View site GH Pages](https://img.shields.io/badge/Github_Pages-Demo_site-green?style=for-the-badge)](https://MichaelCurrin.github.io/nested-jekyll-menus/)
 
 The easy way to nest content in your Jekyll site and have menus auto-generate for you at each level.
 
@@ -17,7 +17,7 @@ Create directories and content pages in you Jekyll site using _any_ number of ne
 This is the homepage of this demo site - it has minimal styling.
 
 <div align="center">
-    <img src="/docs/_media/homepage.png" alt="homepage" width="300px"/>
+    <img src="/docs/_media/homepage.png" alt="homepage" width="400px"/>
 </div>
 
 One page doesn't really showcase the functionality of this project, so keep reading to see how this works.
@@ -44,7 +44,7 @@ index.md
 On the frontend, the rendered page has these breadcrumbs displayed:
 
 <div align="center">
-    <img src="/docs/_media/breadcrumbs.png" alt="breadcrumbs" width="300px"/>
+    <img src="/docs/_media/breadcrumbs.png" alt="breadcrumbs" width="400px"/>
 </div>
 
 Using this project, it is easy to navigate from the Homepage to that nested page using menus which are generated **dynamically** at each level. So that if you move/rename/delete a page or directory, your menus will be rebuilt to match that new setup.
@@ -68,7 +68,7 @@ Path: `/animals/`
 Go into the Animals section and you'll see a listing of pages about animals and then sections (directories) to explore deeper.
 
 <div align="center">
-    <img src="/docs/_media/animals.png" alt="animals" width="200px"/>
+    <img src="/docs/_media/animals.png" alt="animals" width="300px"/>
 </div>
 
 ### Level 3 - Reptiles
@@ -180,7 +180,7 @@ Another approach would be to generate a menu as a config file. Or to generate a 
 
 If you don't want to use the alphabetical auto-generated menus, you can make your own like this:
 
-```liquid
+```markdown
 - [Foo]({% link foo/index.md %})
 - [Bar]({% link bar/index.md %})
     - [Baz]({% link bar/baz.md %})
