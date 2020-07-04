@@ -5,6 +5,7 @@ url: "https://michaelcurrin.github.io"
 baseurl: "/nested-jekyll-menus"
 
 exclude:
+  - docs/
   - LICENSE
   - README.md
   - Makefile
@@ -17,4 +18,4 @@ defaults:
   - scope:
       path: ""
     values:
-      layout: "default"
+      layout: "page"
