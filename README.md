@@ -4,6 +4,8 @@
 [![GitHub tag](https://img.shields.io/github/tag/MichaelCurrin/nested-jekyll-menus)](https://github.com/MichaelCurrin/nested-jekyll-menus/tags/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue)](#license)
 
+[![Made with Jekyll](https://img.shields.io/badge/Made_with-Jekyll-blue.svg)](https://jekyllrb.com)
+
 [![View site GH Pages](https://img.shields.io/badge/Github_Pages-Demo_site-green?style=for-the-badge)](https://MichaelCurrin.github.io/nested-jekyll-menus/)
 
 The easy way to nest content in your Jekyll site and have menus auto-generate for you at each level.
