@@ -10,6 +10,7 @@ The easy way to nest content in your Jekyll site and have menus auto-generate fo
 
 Create directories and content pages in you Jekyll site using _any_ number of nested levels and an `index.md` file at each level. Then use the logic in the project to iterate over all pages and filter to just the pages and directories at the current level. This handled in two includes files which can be adapted to build a menu for Jekyll site.
 
+
 ## Sample
 
 ### Site preview
@@ -137,7 +138,7 @@ Example of structure, relative to repo root:
         file-z.md
     index.md
     ```
-- Directory nested in directory:
+- Directory nested in a directory:
     ```
     directory-1/
         directory-2/
@@ -157,6 +158,8 @@ Example of structure, relative to repo root:
     ```
 
 Instead of setting the `listing` layout for each index page, you can set it as a default layout for index pages. See the [config](/_config.yml) file's `defaults` section.
+
+Note that the nesting levels do not have to be equal - you can have some paths which are shallow and some which are deep. If you decide that a page needs multiple pages, you can split just that page into a directory of multiple pages.
 
 
 ## About
