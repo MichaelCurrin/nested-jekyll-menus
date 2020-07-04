@@ -1,10 +1,7 @@
-{% comment %}
-    Based on: https://jekyllcodex.org/without-plugin/breadcrumbs/
-{% endcomment %}
 <div id="breadcrumbs">
 {% assign crumbs = page.url | remove: '/index.html' | split: '/' %}
 
-    <a href="{% link index.md %}">Home</a>
+    <a href="{{ '/' | relative_url }}">Home</a>
 
     {% for crumb in crumbs offset: 1 %}
         /
