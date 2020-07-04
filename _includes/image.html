@@ -1,3 +1,4 @@
+{% comment %} Make a stock image URL using the directory name if an index page otherwise using the filename. {% endcomment %}
 <div>
     {% if page.name == 'index.md' %}
         {% assign keyword = page.dir | split: '/' | last %}
