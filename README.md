@@ -113,7 +113,7 @@ Understand how this project works then you can apply the pattern to your own pro
 
 See the `list-` files in the [\_includes](/_includes/) directory. This is the main part of this project.
 
-Those files in the [listing](/_layouts/listing.html) layout file, to give the page some form and headings.
+Those files are in the [listing](/_layouts/listing.html) layout file, to give the page some form and headings.
 
 Use this project directly by forking it and setting it up yourself. Or copy any list and layout files that you need.
 
@@ -159,9 +159,27 @@ Example of structure, relative to repo root:
     index.md
     ```
 
-Instead of setting the `listing` layout for each index page, you can set it as a default layout for index pages. See the [config](/_config.yml) file's `defaults` section.
-
 Note that the nesting levels do not have to be equal - you can have some paths which are shallow and some which are deep. If you decide that a page needs multiple pages, you can split just that page into a directory of multiple pages.
+
+On the `index.md` page at each level needs to have a menu on it from the `listing` layout. The other pages can have just a `page` layout. 
+
+Examples:
+
+- `directory-1/index.md`
+    ```yaml
+    ---
+    title: Directory 1
+    layout: listing
+    ---
+    ```
+- `directory-1/file-a.md`
+    ```yaml
+    ---
+    title: File A
+    ---
+    ```
+
+Note: Avoiding setting the `listing` layout as a default layout in the config - this causes memory issues and a slow build due to looking for the `index.md` pages at multiple levels. Rather set the layout on each.
 
 
 ## About
