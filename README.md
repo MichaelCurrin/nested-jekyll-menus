@@ -179,7 +179,7 @@ Examples:
     ---
     ```
 
-Note: Avoiding setting the `listing` layout as a default layout in the config - this causes memory issues and a slow build due to looking for the `index.md` pages at multiple levels. Rather set the layout on each.
+Note: Avoiding setting the `listing` layout as a _default_ layout in the config - this causes memory issues and therefore a slow build on larger projects, due to looking for the `index.md` pages at multiple levels. Rather set the layout on eac file as above. 
 
 
 ## About
