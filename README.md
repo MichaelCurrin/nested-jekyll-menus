@@ -33,16 +33,17 @@ In this repo, we have the following file which is nested in a few levels of dire
 
 The repo structure is like this. Note that the `index.md` pages are necessary to build the menu at each level.
 
-```
-animals/
-    reptiles/
-        snakes/
-            rattlesnake.md
+- Sample
+    ```
+    animals/
+        reptiles/
+            snakes/
+                rattlesnake.md
+                index.md
             index.md
         index.md
     index.md
-index.md
-```
+    ```
 
 On the frontend, the rendered page has these breadcrumbs displayed:
 
