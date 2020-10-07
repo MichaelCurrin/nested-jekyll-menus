@@ -116,9 +116,9 @@ Understand how this project works then you can apply the pattern to your own pro
 
 ### List files
 
-See the `list-pages.html` and `list-sections.html` files in the [\_includes](/_includes/) directory. Those form the core logic of this repo for getting files or directories which are exactly one level below the current page and do that on any given page.
+See the `list-pages.html` and `list-sections.html` files in the [\_includes](/_includes/) directory. Those form the core logic of this repo for getting files or directories which are exactly one level below the current page and build a menu from that. It can do that on any given page.
 
-Those files are in the [listing](/_layouts/listing.html) layout file, to give the page some form and headings.
+Those are used in the [listing.html](/_layouts/listing.html) layout file, which means that any page with that layout will have those menus. Otherwise a page is just a stub and just has content and no menu.
 
 Use this project directly by forking it and setting it up yourself. Or copy any list and layout files that you need.
 
