@@ -6,12 +6,14 @@
 
 [![Made with Jekyll](https://img.shields.io/badge/Made_with-Jekyll-blue.svg)](https://jekyllrb.com)
 
+## Purpose
+
 The easy way to nest content in your Jekyll site and have menus auto-generate for you at each level.
 
 Create directories and content pages in you Jekyll site using _any_ number of nested levels and an `index.md` file at each level. Then use the logic in the project to iterate over all pages and filter to just the pages and directories at the current level. This handled in two includes files which can be adapted to build a menu for Jekyll site.
 
 
-## Sample
+## Demo
 
 [![View site GH Pages](https://img.shields.io/badge/Github_Pages-Demo_site-green?style=for-the-badge)](https://MichaelCurrin.github.io/nested-jekyll-menus/)
 
@@ -22,7 +24,7 @@ This is the homepage of this demo site - it just has minimal styling.
     <img src="/docs/_media/homepage.png" alt="homepage" width="400px"/>
 </div>
 
-One page doesn't really showcase the functionality of this project, so keep reading to see how this works.
+One page doesn't really showcase the functionality of this project, so keep reading to see how this works. Or checkout my [Cheatsheets](https://github.com/MichaelCurrin/dev-cheatsheets) where I took the prototype from this project and applied it there.
 
 
 ## Navigation example 
