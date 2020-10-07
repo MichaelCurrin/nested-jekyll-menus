@@ -1,6 +1,13 @@
 {% comment %}
     List directories which are in the current directory.
-    The logic is: after removing the **common** part of the item's path, we use an item if goes exactly **one** level down i.e. direct descendants.
+    
+    The logic is: after removing the **common** part of the item's path,
+    we use an item if goes exactly **one** level down i.e. direct descendants.
+    Unfortunately Jekyll doesn't have a concept of directories, just pages in site.pages,
+    so here we use the presence of index.md to indicate that is the index of a directory.
+    This also makes sense to use this approach because Jekyll needs to actually have an HTML page
+    to reference as the directory menu.
+    Just make sure you have index.md in each directory and that it uses the listing layout.
 {% endcomment %}
 
 <ul>
