@@ -200,7 +200,7 @@ This project used the [Unsplash API](https://github.com/MichaelCurrin/learn-to-c
 
 ## Other approaches
 
-While the Minima Jekyll theme handles pulling pages into a navbar automatically, the idea here is that there are _nested_ pages such as a collection and those need to appear in a nested navbar or in a table of contents menu which is appropriate for the current level.
+While the _Minima_ Jekyll theme handles pulling pages into a navbar automatically, the idea here is that there are _nested_ pages such as a collection and those need to appear in a nested navbar or in a table of contents menu which is appropriate for the current level.
 
 Another approach would be to generate a menu as a config file. Or to generate a table of contents of the entire site - which can work in a nested navbar or a sidebar. But it can get overwhelming if there are many levels.
 
@@ -215,7 +215,7 @@ If you don't want to use the alphabetical auto-generated menus, you can make you
 
 ## Documentation
 
-To setup and run this project locally or on Github Pages, see the [docs](/docs/#readme).
+To setup and run this project locally or on GitHub Pages, see the [docs](/docs/#readme).
 
 
 ## License
