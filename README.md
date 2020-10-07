@@ -116,7 +116,7 @@ Understand how this project works then you can apply the pattern to your own pro
 
 ### List files
 
-See the `list-` files in the [\_includes](/_includes/) directory. This is the main part of this project.
+See the `list-pages.html` and `list-sections.html` files in the [\_includes](/_includes/) directory. Those form the core logic of this repo for getting files or directories which are exactly one level below the current page and do that on any given page.
 
 Those files are in the [listing](/_layouts/listing.html) layout file, to give the page some form and headings.
 
