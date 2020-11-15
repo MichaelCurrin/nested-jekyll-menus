@@ -116,7 +116,7 @@ If you want to link between files, you can do it using the `link` tag.
 For example:
 
 ```markdown
-[Rattlesnake]({{ site.baseurl }}{% link animals/reptiles/snakes/rattlesnake.md %}
+[Rattlesnake]({{ site.baseurl }}{% link animals/reptiles/snakes/rattlesnake.md %})
 ```
 
 Using `link` is more verbose than a plain markdown link, but it gives security as your build will give you an error if the path is to a file that has been moved or renamed without the link to it also being updated.
