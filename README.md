@@ -10,7 +10,7 @@
 
 The easy way to nest content in your Jekyll site and have menus auto-generate for you at each level.
 
-Create directories and content pages in you Jekyll site using _any_ number of nested levels and an `index.md` file at each level. Then use the logic in the project to iterate over all pages and filter to just the pages and directories at the current level. This handled in two includes files which can be adapted to build a menu for Jekyll site.
+Create directories and content pages in you Jekyll site using _any_ number of nested levels and an `index.md` file at each level. Then use the logic in the project to iterate over all pages and filter to just the pages and directories at the current level. This is handled in two includes files which can be adapted to build a menu for a Jekyll site.
 
 
 ## Demo
@@ -18,7 +18,7 @@ Create directories and content pages in you Jekyll site using _any_ number of ne
 [![View site GH Pages](https://img.shields.io/badge/Github_Pages-Demo_site-green?style=for-the-badge)](https://MichaelCurrin.github.io/nested-jekyll-menus/)
 
 
-This is the homepage of this demo site - it just has minimal styling.
+Here is the homepage of this demo site - it just has minimal styling.
 
 <div align="center">
     <img src="/docs/_media/homepage.png" alt="homepage" width="400px"/>
@@ -108,6 +108,18 @@ Follow the the Rattlesnake page and you'll end up at this page, which is the fin
 <div align="center">
     <img src="/docs/_media/rattlesnake.png" alt="rattlesnake" width="300px"/>
 </div>
+
+### Linking to files
+
+If you want to link between files, you can do it using the `link` tag. 
+
+For example:
+
+```markdown
+[Rattlesnake]({{ site.baseurl }}{% link animals/reptiles/snakes/rattlesnake.md %}
+```
+
+Using `link` is more verbose than a plain markdown link, but it gives security as your build will give you an error if the path is to a file that has been moved or renamed without the link to it also being updated.
 
 
 ## How this project works
