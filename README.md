@@ -8,7 +8,9 @@
 
 ## Note
 
-_This project is no longer maintained. It is a useful demo and prototype that I'll keep.Bbut I have moved on to a bigger and better repo here:  [fractal](https://github.com/MichaelCurrin/fractal) theme. One of the improvements is that the `listing.html` layout is not needed - the `page.html` layout is sufficient._
+_This project is no longer maintained._
+
+_It is still a useful demo and prototype that I'll keep. But I have moved on to a bigger and better repo here:  [MichaelCurrin/fractal](https://github.com/MichaelCurrin/fractal) theme. Improvements include the `listing.html` layout is not needed and flexbox CSS styling has been used.
 
 
 ## Purpose
