@@ -6,6 +6,11 @@
 [![Made with Jekyll](https://img.shields.io/badge/jekyll-3.9-blue?logo=jekyll)](https://jekyllrb.com)
 
 
+## Note
+
+_This project is no longer maintained. It is a useful demo and prototype I'll keep, but I have made a bigger and better repo here - [fractal](https://github.com/MichaelCurrin/fractal) theme. One of the improvements is that the `listing.html` layout is not needed - the `page.html` layout is sufficient._
+
+
 ## Purpose
 
 The easy way to nest content in your Jekyll site and have menus auto-generate for you at each level.
@@ -234,7 +239,7 @@ To setup and run this project locally or on GitHub Pages, see the [docs](/docs/#
 
 ## License
 
-Released under [MIT](/LICENSE).
+Released under [MIT](/LICENSE) by [@MichaelCurrin](https://github.com/MichaelCurrin).
 
 Please back to this repo if you use a portion of it. Also include a copy of the original license.
 
