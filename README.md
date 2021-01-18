@@ -241,7 +241,7 @@ To setup and run this project locally or on GitHub Pages, see the [docs](/docs/#
 
 Released under [MIT](/LICENSE) by [@MichaelCurrin](https://github.com/MichaelCurrin).
 
-Please back to this repo if you use a portion of it. Also include a copy of the original license.
+Please link back to this repo if you use a portion of it. Also include a copy of the original license.
 
 Stock images provided from the [unsplash.com](https://unsplash.com/) Source API.
 
