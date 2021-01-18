@@ -3,6 +3,7 @@
 
 [![GitHub tag](https://img.shields.io/github/tag/MichaelCurrin/nested-jekyll-menus)](https://github.com/MichaelCurrin/nested-jekyll-menus/tags/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue)](#license)
+
 [![Made with Jekyll](https://img.shields.io/badge/jekyll-3.9-blue?logo=jekyll)](https://jekyllrb.com)
 
 
